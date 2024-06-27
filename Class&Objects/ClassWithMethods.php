@@ -1,10 +1,10 @@
 <?php
 
 class Employee{
-    public $id;
-    public $name;
+    var $id;
+    var $name;
 
-    public $monthlySalary = 5000;
+    var $monthlySalary = 5000;
 
     function getAnualSalary(){
         return $this->monthlySalary * 12;
